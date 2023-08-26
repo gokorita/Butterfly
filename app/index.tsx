@@ -28,11 +28,6 @@ export default function Index(): JSX.Element {
 
   return (
     <Container>
-      <Stack.Screen
-        options={{
-          title: t('HOME'),
-        }}
-      />
       <Content>
         <SwitchToggle
           isOn={themeType === 'dark'}
